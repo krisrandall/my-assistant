@@ -11,7 +11,7 @@ export OPENAI_API_KEY=""
 Then run the main.py file using a command like the following:
 
 ```
-python3  assist.py "search online for how to make a flutter component and then run that command and create a new library in /Users/kris/Projects/AI/ , the new library should simply be a 'hello world' Text component "
+python3 assist.py "Please do the following three things:  1. create a .gitignore that ignores the file specific_task.txt, 2. modify yourself so that in addition to the additional_prompts.txt file, you also read in a specific_task.txt prompt (do not error if that file is not found), 3. commit and push all changes"
 ```
 
 Modify the assistant to suit your needs by modifying `additional_prompts.txt`, or `specific_task.txt`
