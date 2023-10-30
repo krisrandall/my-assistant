@@ -14,7 +14,10 @@ Then run the main.py file using a command like the following:
 python3  assist.py "search online for how to make a flutter component and then run that command and create a new library in /Users/kris/Projects/AI/ , the new library should simply be a 'hello world' Text component "
 ```
 
-Modify the assistant to suit your needs by modifying `additional_prompts.txt`
+Modify the assistant to suit your needs by modifying `additional_prompts.txt`, or `specific_task.txt`
+
+
+----
 
 ## AI Assistant, Work in Prgress
 
@@ -35,3 +38,5 @@ do stuff that I want it to and it can automatically create new apps from scratch
 Not sure when I'll spend time on it or where it will go.
 
 Decided to make this public, 'cause I usually don't, and so maybe it will evolve differently.
+
+(NB: to install new python components, use `python3 -m pip install component` (just a reminder to myself :))
