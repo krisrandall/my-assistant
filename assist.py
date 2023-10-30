@@ -37,3 +37,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+if os.path.exists("specific_task.txt"):
+    with open("specific_task.txt", "r") as f:
+        specific_task = f.read()
+    prompts.append(specific_task)
